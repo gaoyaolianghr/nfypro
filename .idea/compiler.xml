@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="nfypro-modules-system" />
+        <module name="nfypro-common-seata" />
+        <module name="nfypro-api-system" />
+        <module name="nfypro-auth" />
+        <module name="nfypro-gateway" />
+        <module name="nfypro-common-log" />
+        <module name="nfypro-common-security" />
+        <module name="nfypro-common-redis" />
+        <module name="nfypro-common-datascope" />
+        <module name="nfypro-common-core" />
+        <module name="nfypro-common-datasource" />
+        <module name="nfypro-common-swagger" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
