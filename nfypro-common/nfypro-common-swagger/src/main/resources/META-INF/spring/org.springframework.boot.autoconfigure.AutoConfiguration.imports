@@ -1,0 +1,3 @@
+com.nfypro.common.swagger.config.SwaggerAutoConfiguration
+com.nfypro.common.swagger.config.SwaggerWebConfiguration
+com.nfypro.common.swagger.config.SwaggerBeanPostProcessor

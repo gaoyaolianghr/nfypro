@@ -1,0 +1,2 @@
+com.nfypro.common.log.service.AsyncLogService
+com.nfypro.common.log.aspect.LogAspect

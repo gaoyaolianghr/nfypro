@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.nfypro</groupId>
+        <artifactId>nfypro</artifactId>
+        <version>3.6.2</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>nfypro-common-log</module>
+        <module>nfypro-common-core</module>
+        <module>nfypro-common-redis</module>
+        <module>nfypro-common-seata</module>
+        <module>nfypro-common-swagger</module>
+        <module>nfypro-common-security</module>
+        <module>nfypro-common-datascope</module>
+        <module>nfypro-common-datasource</module>
+    </modules>
+
+    <artifactId>nfypro-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        nfypro-common通用模块
+    </description>
+
+</project>
