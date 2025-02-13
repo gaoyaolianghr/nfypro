@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.nfypro.common.security.annotation.EnableCustomConfig;
 import com.nfypro.common.security.annotation.EnableRyFeignClients;
 import com.nfypro.common.swagger.annotation.EnableCustomSwagger2;
+import org.springframework.boot.web.servlet.ServletComponentScan;
 
 /**
  * 系统模块
@@ -15,6 +16,7 @@ import com.nfypro.common.swagger.annotation.EnableCustomSwagger2;
 @EnableCustomSwagger2
 @EnableRyFeignClients
 @SpringBootApplication
+@ServletComponentScan
 public class RuoYiSystemApplication
 {
     public static void main(String[] args)
