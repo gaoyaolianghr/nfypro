@@ -28,7 +28,7 @@ import com.nfypro.system.service.ISysMenuService;
  * @author ruoyi
  */
 @RestController
-@RequestMapping("/menu")
+@RequestMapping("/dev-api/system/menu")
 public class SysMenuController extends BaseController
 {
     @Autowired
