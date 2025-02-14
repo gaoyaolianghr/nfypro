@@ -19,12 +19,12 @@ public class BlackListUrlFilter implements Filter {
         HttpServletRequest httpRequest = (HttpServletRequest) request;
         HttpServletResponse httpResponse = (HttpServletResponse) response;
 
-        String requestUri = httpRequest.getRequestURI();
+        /*String requestUri = httpRequest.getRequestURI();
         if (BLACKLIST_URLS.contains(requestUri)) {
             httpResponse.setStatus(HttpServletResponse.SC_FORBIDDEN);
             httpResponse.getWriter().write("Forbidden: URL is blocked");
             return;
-        }
+        }*/
 
         chain.doFilter(request, response);
     }

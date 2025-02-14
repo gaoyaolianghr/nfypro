@@ -9,8 +9,6 @@
         <module name="nfypro-modules-system" />
         <module name="nfypro-common-seata" />
         <module name="nfypro-api-system" />
-        <module name="nfypro-auth" />
-        <module name="nfypro-gateway" />
         <module name="nfypro-common-log" />
         <module name="nfypro-common-security" />
         <module name="nfypro-common-redis" />
@@ -20,5 +18,9 @@
         <module name="nfypro-common-swagger" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="nfypro-auth" target="1.8" />
+      <module name="nfypro-gateway" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

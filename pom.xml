@@ -210,8 +210,6 @@
     </dependencyManagement>
 
     <modules>
-        <module>nfypro-auth</module>
-        <module>nfypro-gateway</module>
         <module>nfypro-modules</module>
         <module>nfypro-api</module>
         <module>nfypro-common</module>

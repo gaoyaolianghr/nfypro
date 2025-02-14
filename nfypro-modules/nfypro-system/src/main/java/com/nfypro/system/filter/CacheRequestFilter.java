@@ -23,17 +23,17 @@ public class CacheRequestFilter implements Filter {
         String requestKey = httpRequest.getRequestURI() + "?" + httpRequest.getQueryString();
 
         // 检查缓存是否存在
-        if (requestCache.containsKey(requestKey)) {
+        /*if (requestCache.containsKey(requestKey)) {
             response.getWriter().write(requestCache.get(requestKey));
             return;
-        }
+        }*/
 
         // 缓存响应内容（需自定义）
         CachedResponseWrapper wrapper = new CachedResponseWrapper((HttpServletResponse) response);
         chain.doFilter(request, wrapper);
 
-        String responseContent = wrapper.getContent();
-        requestCache.put(requestKey, responseContent);
+        /*String responseContent = wrapper.getContent();
+        requestCache.put(requestKey, responseContent);*/
     }
 
     /*@Override

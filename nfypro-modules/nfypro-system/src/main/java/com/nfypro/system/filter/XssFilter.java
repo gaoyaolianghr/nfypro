@@ -1,5 +1,7 @@
 package com.nfypro.system.filter;
 
+import org.apache.commons.lang3.StringEscapeUtils;
+
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServletRequest;
@@ -7,7 +9,6 @@ import javax.servlet.http.HttpServletRequestWrapper;
 import java.io.IOException;
 import java.util.Arrays;
 
-import org.apache.commons.text.StringEscapeUtils;
 
 @WebFilter(urlPatterns = "/*")
 public class XssFilter implements Filter {
