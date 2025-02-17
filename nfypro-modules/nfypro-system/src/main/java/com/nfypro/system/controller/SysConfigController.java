@@ -29,7 +29,7 @@ import com.nfypro.system.service.ISysConfigService;
  * @author ruoyi
  */
 @RestController
-@RequestMapping("/config")
+@RequestMapping("/system/config")
 public class SysConfigController extends BaseController
 {
     @Autowired

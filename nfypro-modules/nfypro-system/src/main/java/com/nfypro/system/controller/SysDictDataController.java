@@ -32,7 +32,7 @@ import com.nfypro.system.service.ISysDictTypeService;
  * @author ruoyi
  */
 @RestController
-@RequestMapping("/dict/data")
+@RequestMapping("/system/dict/data")
 public class SysDictDataController extends BaseController
 {
     @Autowired

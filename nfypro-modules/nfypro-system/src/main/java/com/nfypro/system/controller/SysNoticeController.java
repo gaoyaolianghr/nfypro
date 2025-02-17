@@ -27,7 +27,7 @@ import com.nfypro.system.service.ISysNoticeService;
  * @author ruoyi
  */
 @RestController
-@RequestMapping("/notice")
+@RequestMapping("/system/notice")
 public class SysNoticeController extends BaseController
 {
     @Autowired

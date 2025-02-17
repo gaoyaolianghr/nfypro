@@ -29,7 +29,7 @@ import com.nfypro.system.service.ISysLogininforService;
  * @author ruoyi
  */
 @RestController
-@RequestMapping("/logininfor")
+@RequestMapping("/system/logininfor")
 public class SysLogininforController extends BaseController
 {
     @Autowired

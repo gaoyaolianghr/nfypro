@@ -32,7 +32,7 @@ import com.nfypro.system.service.ISysUserService;
  * @author ruoyi
  */
 @RestController
-@RequestMapping("/user/profile")
+@RequestMapping("/system/user/profile")
 public class SysProfileController extends BaseController
 {
     @Autowired

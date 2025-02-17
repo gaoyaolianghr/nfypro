@@ -21,7 +21,7 @@ import javax.servlet.http.HttpServletRequest;
  * @author ruoyi
  */
 @RestController
-@RequestMapping("/dev-api/auth")
+@RequestMapping("/auth")
 public class TokenController
 {
     @Autowired

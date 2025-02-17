@@ -29,7 +29,7 @@ import com.nfypro.system.service.ISysPostService;
  * @author ruoyi
  */
 @RestController
-@RequestMapping("/post")
+@RequestMapping("/system/post")
 public class SysPostController extends BaseController
 {
     @Autowired

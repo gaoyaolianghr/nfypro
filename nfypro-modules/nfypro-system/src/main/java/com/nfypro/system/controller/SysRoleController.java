@@ -34,7 +34,7 @@ import com.nfypro.system.service.ISysUserService;
  * @author ruoyi
  */
 @RestController
-@RequestMapping("/role")
+@RequestMapping("/system/role")
 public class SysRoleController extends BaseController
 {
     @Autowired

@@ -29,7 +29,7 @@ import com.nfypro.system.service.ISysDeptService;
  * @author ruoyi
  */
 @RestController
-@RequestMapping("/dept")
+@RequestMapping("/system/dept")
 public class SysDeptController extends BaseController
 {
     @Autowired

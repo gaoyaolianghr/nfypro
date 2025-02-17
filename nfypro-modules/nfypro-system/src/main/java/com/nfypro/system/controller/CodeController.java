@@ -23,7 +23,7 @@ import java.util.HashMap;
  * @author ruoyi
  */
 @RestController
-@RequestMapping("/dev-api")
+/*@RequestMapping("/dev-api")*/
 public class CodeController
 {
     @Autowired

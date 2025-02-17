@@ -27,7 +27,7 @@ import com.nfypro.system.service.ISysOperLogService;
  * @author ruoyi
  */
 @RestController
-@RequestMapping("/operlog")
+@RequestMapping("/system/operlog")
 public class SysOperlogController extends BaseController
 {
     @Autowired

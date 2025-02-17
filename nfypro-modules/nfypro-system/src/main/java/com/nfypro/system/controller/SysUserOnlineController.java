@@ -29,7 +29,7 @@ import com.nfypro.system.service.ISysUserOnlineService;
  * @author ruoyi
  */
 @RestController
-@RequestMapping("/online")
+@RequestMapping("/system/online")
 public class SysUserOnlineController extends BaseController
 {
     @Autowired
